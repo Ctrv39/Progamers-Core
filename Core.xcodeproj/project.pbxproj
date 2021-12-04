@@ -7,12 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2FF1FD4C1031FFD2760BFC /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA1803CF27F6ACD21E0E95E /* Pods_Core.framework */; };
+		90CC50CC27550C3800E12881 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CC50CB27550C3800E12881 /* ImageLoader.swift */; };
 		90CD3F81274674B900EEE8B1 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CD3F80274674B900EEE8B1 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90CD3F8B27467A9800EEE8B1 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F8A27467A9800EEE8B1 /* RemoteDataSource.swift */; };
+		90CD3F9227467AF800EEE8B1 /* ESRBResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F8D27467AF800EEE8B1 /* ESRBResponse.swift */; };
+		90CD3F9327467AF800EEE8B1 /* GameListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F8E27467AF800EEE8B1 /* GameListResponse.swift */; };
+		90CD3F9427467AF800EEE8B1 /* GenreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F8F27467AF800EEE8B1 /* GenreResponse.swift */; };
+		90CD3F9527467AF800EEE8B1 /* GameDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F9027467AF800EEE8B1 /* GameDetailResponse.swift */; };
+		90CD3F9627467AF800EEE8B1 /* PlatformResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F9127467AF800EEE8B1 /* PlatformResponse.swift */; };
+		90CD3F9827467BB500EEE8B1 /* GameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F9727467BB500EEE8B1 /* GameRepository.swift */; };
+		90CD3F9D27467CB400EEE8B1 /* LocaleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F9C27467CB400EEE8B1 /* LocaleDataSource.swift */; };
+		90CD3FA027467CEA00EEE8B1 /* GameEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F9F27467CEA00EEE8B1 /* GameEntity.swift */; };
+		90CD3FA627467E1E00EEE8B1 /* GameDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FA327467E1E00EEE8B1 /* GameDetailModel.swift */; };
+		90CD3FA727467E1E00EEE8B1 /* GameListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FA427467E1E00EEE8B1 /* GameListModel.swift */; };
+		90CD3FA827467E1E00EEE8B1 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FA527467E1E00EEE8B1 /* GameModel.swift */; };
+		90CD3FAC27467E7F00EEE8B1 /* GameListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FAB27467E7F00EEE8B1 /* GameListMapper.swift */; };
+		90CD3FAF27467EB000EEE8B1 /* GameMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FAD27467EB000EEE8B1 /* GameMapper.swift */; };
+		90CD3FB027467EB000EEE8B1 /* GameDetailMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FAE27467EB000EEE8B1 /* GameDetailMapper.swift */; };
+		90CD3FB327467F1600EEE8B1 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3FB227467F1600EEE8B1 /* APICall.swift */; };
+		90CD3FB627467FF700EEE8B1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 90CD3FB527467FF700EEE8B1 /* Alamofire */; };
+		90CD3FB92746803700EEE8B1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 90CD3FB82746803700EEE8B1 /* RxCocoa */; };
+		90CD3FBB2746803700EEE8B1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 90CD3FBA2746803700EEE8B1 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BA1803CF27F6ACD21E0E95E /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CC50CB27550C3800E12881 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		90CD3F7D274674B900EEE8B1 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CD3F80274674B900EEE8B1 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		90CD3F8A27467A9800EEE8B1 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		90CD3F8D27467AF800EEE8B1 /* ESRBResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRBResponse.swift; sourceTree = "<group>"; };
+		90CD3F8E27467AF800EEE8B1 /* GameListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListResponse.swift; sourceTree = "<group>"; };
+		90CD3F8F27467AF800EEE8B1 /* GenreResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreResponse.swift; sourceTree = "<group>"; };
+		90CD3F9027467AF800EEE8B1 /* GameDetailResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailResponse.swift; sourceTree = "<group>"; };
+		90CD3F9127467AF800EEE8B1 /* PlatformResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformResponse.swift; sourceTree = "<group>"; };
+		90CD3F9727467BB500EEE8B1 /* GameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepository.swift; sourceTree = "<group>"; };
+		90CD3F9C27467CB400EEE8B1 /* LocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSource.swift; sourceTree = "<group>"; };
+		90CD3F9F27467CEA00EEE8B1 /* GameEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntity.swift; sourceTree = "<group>"; };
+		90CD3FA327467E1E00EEE8B1 /* GameDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailModel.swift; sourceTree = "<group>"; };
+		90CD3FA427467E1E00EEE8B1 /* GameListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListModel.swift; sourceTree = "<group>"; };
+		90CD3FA527467E1E00EEE8B1 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		90CD3FAB27467E7F00EEE8B1 /* GameListMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListMapper.swift; sourceTree = "<group>"; };
+		90CD3FAD27467EB000EEE8B1 /* GameMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMapper.swift; sourceTree = "<group>"; };
+		90CD3FAE27467EB000EEE8B1 /* GameDetailMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailMapper.swift; sourceTree = "<group>"; };
+		90CD3FB227467F1600EEE8B1 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		9482346A6D6FFE189E3EBE96 /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "../../Core/Pods/Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		F5EE201A315A0CFB20CC51A9 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "../../Core/Pods/Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,17 +61,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CD3FB92746803700EEE8B1 /* RxCocoa in Frameworks */,
+				90CD3FBB2746803700EEE8B1 /* RxSwift in Frameworks */,
+				90CD3FB627467FF700EEE8B1 /* Alamofire in Frameworks */,
+				2F2FF1FD4C1031FFD2760BFC /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35873CD32DD7204E40EE17D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9482346A6D6FFE189E3EBE96 /* Pods-Core.debug.xcconfig */,
+				F5EE201A315A0CFB20CC51A9 /* Pods-Core.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../ProgamersExpert/Pods;
+			sourceTree = "<group>";
+		};
 		90CD3F73274674B900EEE8B1 = {
 			isa = PBXGroup;
 			children = (
 				90CD3F7F274674B900EEE8B1 /* Core */,
 				90CD3F7E274674B900EEE8B1 /* Products */,
+				35873CD32DD7204E40EE17D7 /* Pods */,
+				C1B3A9B9BDDBB5F5B762C70F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,9 +102,114 @@
 		90CD3F7F274674B900EEE8B1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				90CD3FA927467E7000EEE8B1 /* Utils */,
+				90CD3FA127467DF300EEE8B1 /* Domain */,
+				90CD3F8727467A7B00EEE8B1 /* Data */,
 				90CD3F80274674B900EEE8B1 /* Core.h */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		90CD3F8727467A7B00EEE8B1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3F8927467A8700EEE8B1 /* Local */,
+				90CD3F8827467A8300EEE8B1 /* Remote */,
+				90CD3F9727467BB500EEE8B1 /* GameRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		90CD3F8827467A8300EEE8B1 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3F8C27467ACF00EEE8B1 /* Response */,
+				90CD3F8A27467A9800EEE8B1 /* RemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		90CD3F8927467A8700EEE8B1 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3F9E27467CE100EEE8B1 /* Entity */,
+				90CD3F9C27467CB400EEE8B1 /* LocaleDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		90CD3F8C27467ACF00EEE8B1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3F8D27467AF800EEE8B1 /* ESRBResponse.swift */,
+				90CD3F9027467AF800EEE8B1 /* GameDetailResponse.swift */,
+				90CD3F8E27467AF800EEE8B1 /* GameListResponse.swift */,
+				90CD3F8F27467AF800EEE8B1 /* GenreResponse.swift */,
+				90CD3F9127467AF800EEE8B1 /* PlatformResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		90CD3F9E27467CE100EEE8B1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3F9F27467CEA00EEE8B1 /* GameEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		90CD3FA127467DF300EEE8B1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3FA227467E0C00EEE8B1 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		90CD3FA227467E0C00EEE8B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3FA327467E1E00EEE8B1 /* GameDetailModel.swift */,
+				90CD3FA427467E1E00EEE8B1 /* GameListModel.swift */,
+				90CD3FA527467E1E00EEE8B1 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90CD3FA927467E7000EEE8B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3FB127467F0100EEE8B1 /* Network */,
+				90CD3FAA27467E7500EEE8B1 /* Mapper */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		90CD3FAA27467E7500EEE8B1 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3FAE27467EB000EEE8B1 /* GameDetailMapper.swift */,
+				90CD3FAD27467EB000EEE8B1 /* GameMapper.swift */,
+				90CD3FAB27467E7F00EEE8B1 /* GameListMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		90CD3FB127467F0100EEE8B1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90CD3FB227467F1600EEE8B1 /* APICall.swift */,
+				90CC50CB27550C3800E12881 /* ImageLoader.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C1B3A9B9BDDBB5F5B762C70F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BA1803CF27F6ACD21E0E95E /* Pods_Core.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90CD3F84274674B900EEE8B1 /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
+				0CBB2B1046BE6F7B8D7BD43F /* [CP] Check Pods Manifest.lock */,
 				90CD3F78274674B900EEE8B1 /* Headers */,
 				90CD3F79274674B900EEE8B1 /* Sources */,
 				90CD3F7A274674B900EEE8B1 /* Frameworks */,
@@ -78,6 +241,11 @@
 			dependencies = (
 			);
 			name = Core;
+			packageProductDependencies = (
+				90CD3FB527467FF700EEE8B1 /* Alamofire */,
+				90CD3FB82746803700EEE8B1 /* RxCocoa */,
+				90CD3FBA2746803700EEE8B1 /* RxSwift */,
+			);
 			productName = Core;
 			productReference = 90CD3F7D274674B900EEE8B1 /* Core.framework */;
 			productType = "com.apple.product-type.framework";
@@ -93,6 +261,7 @@
 				TargetAttributes = {
 					90CD3F7C274674B900EEE8B1 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -105,6 +274,10 @@
 				Base,
 			);
 			mainGroup = 90CD3F73274674B900EEE8B1;
+			packageReferences = (
+				90CD3FB427467FF700EEE8B1 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				90CD3FB72746803700EEE8B1 /* XCRemoteSwiftPackageReference "RxSwift.git" */,
+			);
 			productRefGroup = 90CD3F7E274674B900EEE8B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,11 +297,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CBB2B1046BE6F7B8D7BD43F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90CD3F79274674B900EEE8B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CD3F9227467AF800EEE8B1 /* ESRBResponse.swift in Sources */,
+				90CD3FB027467EB000EEE8B1 /* GameDetailMapper.swift in Sources */,
+				90CD3F9627467AF800EEE8B1 /* PlatformResponse.swift in Sources */,
+				90CD3F8B27467A9800EEE8B1 /* RemoteDataSource.swift in Sources */,
+				90CD3F9527467AF800EEE8B1 /* GameDetailResponse.swift in Sources */,
+				90CD3FA627467E1E00EEE8B1 /* GameDetailModel.swift in Sources */,
+				90CD3FA827467E1E00EEE8B1 /* GameModel.swift in Sources */,
+				90CD3FA027467CEA00EEE8B1 /* GameEntity.swift in Sources */,
+				90CD3F9D27467CB400EEE8B1 /* LocaleDataSource.swift in Sources */,
+				90CD3F9427467AF800EEE8B1 /* GenreResponse.swift in Sources */,
+				90CD3F9827467BB500EEE8B1 /* GameRepository.swift in Sources */,
+				90CC50CC27550C3800E12881 /* ImageLoader.swift in Sources */,
+				90CD3FAF27467EB000EEE8B1 /* GameMapper.swift in Sources */,
+				90CD3FA727467E1E00EEE8B1 /* GameListModel.swift in Sources */,
+				90CD3FAC27467E7F00EEE8B1 /* GameListMapper.swift in Sources */,
+				90CD3FB327467F1600EEE8B1 /* APICall.swift in Sources */,
+				90CD3F9327467AF800EEE8B1 /* GameListResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -259,7 +474,9 @@
 		};
 		90CD3F85274674B900EEE8B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9482346A6D6FFE189E3EBE96 /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,6 +497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,7 +505,9 @@
 		};
 		90CD3F86274674B900EEE8B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EE201A315A0CFB20CC51A9 /* Pods-Core.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -335,6 +555,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90CD3FB427467FF700EEE8B1 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		90CD3FB72746803700EEE8B1 /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90CD3FB527467FF700EEE8B1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90CD3FB427467FF700EEE8B1 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			productName = Alamofire;
+		};
+		90CD3FB82746803700EEE8B1 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90CD3FB72746803700EEE8B1 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			productName = RxCocoa;
+		};
+		90CD3FBA2746803700EEE8B1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90CD3FB72746803700EEE8B1 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90CD3F74274674B900EEE8B1 /* Project object */;
 }
